@@ -1,5 +1,5 @@
 (saveFormat "7.0")
-(date "Fri 31/Jul/2020 09:32:39 ")
+(date "Fri 31/Jul/2020 10:00:27 ")
 (veerev "9.32.17704.1")
 (platform "PC")
 (execMode v6)
@@ -18093,8 +18093,9 @@
 (implementation))
 (device 116 LABEL
 (properties
+(name "DoGoodWork")
 (variableScope cont)
-(labelValue "Label"))
+(labelValue "DoGoodWork"))
 (implementation))
 (configuration
 (connect D21:1 D0:0)
@@ -18266,7 +18267,7 @@
 (tabStop off)
 (tabIndex 16)
 (borderStyle none)
-(extent 43 27)
+(extent 84 27)
 (just l)))
 (detail
 (extent 837 447)
@@ -18569,12 +18570,13 @@
 (pinCenter 30 -140))
 (devCarrierFor 116
 (active open)
-(icon)
+(icon
+(extent 81 0))
 (open
-(extent 43 27)
+(extent 86 27)
 (just l))
 (title off)
-(pinCenter 190 -740))
+(pinCenter 210 -740))
 (connect D21:1 D0:0
 (points 11 486 290 510 290 510 240 390 240 390 250 210 250 210 150 190 150 190
 50 140 50 140 66))

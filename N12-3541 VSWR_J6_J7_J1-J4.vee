@@ -1,5 +1,5 @@
 (saveFormat "7.0")
-(date "Tue 03/Mar/2020 08:23:14 ")
+(date "Fri 31/Jul/2020 09:32:39 ")
 (veerev "9.32.17704.1")
 (platform "PC")
 (execMode v6)
@@ -111,7 +111,7 @@
 (variableName Main)
 (variableScope glob)
 (trigMode deg)
-(nextID 116)
+(nextID 117)
 (popupTitleText "Untitled")
 (popupMoveable 1)
 (deleteGlobals 0))
@@ -18091,6 +18091,11 @@
 (variableScope cont)
 (labelValue "3rd Field is path measured"))
 (implementation))
+(device 116 LABEL
+(properties
+(variableScope cont)
+(labelValue "Label"))
+(implementation))
 (configuration
 (connect D21:1 D0:0)
 (connect D36:0 D2:0)
@@ -18253,10 +18258,19 @@
 (tabIndex 15)
 (borderStyle none)
 (extent 261 27)
+(just l))
+(widget 40 detail
+(relativeOrigin 70 0)
+(PID 20)
+(title off)
+(tabStop off)
+(tabIndex 16)
+(borderStyle none)
+(extent 43 27)
 (just l)))
 (detail
 (extent 837 447)
-(anchorPt 206 -20)
+(anchorPt 206 814)
 (configuration
 (devCarrierFor 6
 (active open)
@@ -18553,6 +18567,14 @@
 (just l))
 (title off)
 (pinCenter 30 -140))
+(devCarrierFor 116
+(active open)
+(icon)
+(open
+(extent 43 27)
+(just l))
+(title off)
+(pinCenter 190 -740))
 (connect D21:1 D0:0
 (points 11 486 290 510 290 510 240 390 240 390 250 210 250 210 150 190 150 190
 50 140 50 140 66))
@@ -18646,7 +18668,7 @@
 (connect D34:0 D36:0
 (points 2 450 -130 450 -120)))
 (stackingOrder 22 21 23 20 32 31 33 1 25 24 2 8 9 12 13 14 4 5 6 28 27 30 37 38
-39 3 0 10 11 15 16 17 18 19 26 29 34 36 35 7))
+39 3 0 10 11 15 16 17 18 19 26 29 34 36 35 7 40))
 (numberFormats
 (realFormat standard)
 (realSigDigits 4)
